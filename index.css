@@ -901,6 +901,14 @@ button {
     z-index: 1;
 }
 
+#temple {
+    padding-top: 15px !important;
+}
+
+#process {
+    padding-bottom: 5px !important;
+}
+
 .temple-card-header {
     position: relative;
     z-index: 2;
