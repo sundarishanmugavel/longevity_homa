@@ -2926,3 +2926,100 @@ button {
         max-width: 260px;
     }
 }
+
+/* ==========================================================================
+   Small Mobile Screen Optimization strictly for < 480px viewports (e.g. 375px)
+   ========================================================================== */
+@media (max-width: 480px) {
+    .container {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    /* Enlarge Benefit Cards on 375px Screens */
+    .benefits-outer-card {
+        margin-top: 18px !important;
+    }
+
+    .benefits-5col-row {
+        gap: 12px 10px !important;
+    }
+
+    .benefit-col-unit {
+        flex: 0 0 calc(50% - 5px) !important;
+        width: calc(50% - 5px) !important;
+        max-width: calc(50% - 5px) !important;
+        min-height: 172px !important;
+        padding: 16px 10px !important;
+    }
+
+    .benefit-col-unit:nth-child(5) {
+        flex: 0 0 100% !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .unit-title {
+        font-size: 0.9rem !important;
+        line-height: 1.25 !important;
+    }
+
+    .unit-desc {
+        font-size: 0.76rem !important;
+        line-height: 1.35 !important;
+    }
+
+    /* Enlarge Package Cards on 375px Screens */
+    .packages-grid-opt1 {
+        gap: 18px !important;
+    }
+
+    .opt1-pkg-card {
+        border-radius: 20px !important;
+    }
+
+    .opt1-body {
+        padding: 14px 16px 16px 16px !important;
+    }
+
+    .opt1-title {
+        font-size: 1.1rem !important;
+    }
+
+    .opt1-desc {
+        font-size: 0.8rem !important;
+        line-height: 1.35 !important;
+    }
+
+    /* Enlarge Temple Card on 375px Screens */
+    .temple-info-card {
+        padding: 22px 18px !important;
+        border-radius: 20px !important;
+    }
+
+    .temple-card-title {
+        font-size: 1.45rem !important;
+    }
+
+    .temple-card-desc {
+        font-size: 0.88rem !important;
+        line-height: 1.55 !important;
+    }
+
+    /* Enlarge Testimonial Floating Card on 375px Screens */
+    .testimonial-floating-card {
+        padding: 26px 20px !important;
+        border-radius: 20px !important;
+    }
+
+    .card-quote-body {
+        font-size: 0.98rem !important;
+        line-height: 1.55 !important;
+    }
+
+    /* Enlarge Process Stepper Steps on 375px Screens */
+    .process-mobile-step {
+        padding: 16px 14px !important;
+        border-radius: 16px !important;
+    }
+}
