@@ -73,13 +73,13 @@ button {
 }
 
 /* ==========================================================================
-   Home Banner Section (Using assests/image.png)
+   Home Banner Section (Using assests/image.webp)
    ========================================================================== */
 
 .home-banner {
     width: 100%;
     min-height: 580px;
-    background: #fdf6ee url('assests/image.png') no-repeat left center / cover;
+    background: #fdf6ee url('assests/image.webp') no-repeat left center / cover;
     position: relative;
     border-bottom: 2px solid var(--gold-border);
     box-shadow: 0 6px 24px rgba(74, 21, 12, 0.12);
@@ -811,7 +811,7 @@ button {
 }
 
 /* ==========================================================================
-   Puja Process Section Styling (Using assests/puja_process.png)
+   Puja Process Section Styling (Using assests/puja_process.webp)
    ========================================================================== */
 
 #process .section-title-wrapper {
@@ -1236,7 +1236,7 @@ button {
 @media (max-width: 1200px) {
     .home-banner {
         min-height: 520px;
-        background: #fdf6ee url('assests/banner_1.png') no-repeat left center / cover;
+        background: #fdf6ee url('assests/banner_1.webp') no-repeat left center / cover;
     }
 
     .banner-overlay-container {
@@ -1317,7 +1317,7 @@ button {
 @media (max-width: 850px) {
     .home-banner {
         min-height: 400px;
-        background: #fdf6ee url('assests/banner_1.png') no-repeat left center / cover;
+        background: #fdf6ee url('assests/banner_1.webp') no-repeat left center / cover;
     }
 
     .banner-overlay-container {
@@ -1669,7 +1669,7 @@ button {
     /* 1. Mobile Hero Banner: 100% Centered Vertically & Horizontally at Bottom */
     .home-banner {
         min-height: 520px !important;
-        background: #fdf6ee url('assests/banner_2.png') no-repeat center top / cover !important;
+        background: #fdf6ee url('assests/banner_2.webp') no-repeat center top / cover !important;
         display: flex !important;
         align-items: flex-end !important;
         padding-bottom: 24px !important;
